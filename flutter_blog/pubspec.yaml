@@ -1,5 +1,5 @@
 name: flutter_blog
-description: Blog Style Flutter App
+description: Note the Spot is used to add an image and information to mark notable spots.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -30,6 +30,15 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
+  image_picker: ^0.6.0+17
+  firebase_storage: ^3.0.3
+  flutter_conditional_rendering: ^1.1.1
+  fluttertoast: ^7.1.5
+  meta: ^1.2.4
+  geocoder: ^0.2.1
+  flutter_map: ^0.10.1+1
+  flutter_map_marker_cluster: ^0.3.1
+  floating_search_bar: ^0.3.0
 
 
 dev_dependencies:
